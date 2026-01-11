@@ -1,0 +1,114 @@
+{
+  "image": "/Gemini_Generated_Image_tah6sdtah6sdtah6.png",
+  "resume": "/Favour Adebiyi Resume .pdf",
+  "contacts": [
+    {
+      "icn":"/icons8-email-50.png", "name": "funmiloolaadebiyi52@gmail.com"
+    },
+    {
+      "icn":"/icons8-phone-50.png","name":"09058868230"
+    }
+   ],
+  "socials": [
+    {
+      "logo": "/icons8-linkedin.svg",
+      "link": "https://www.linkedin.com/in/adebiyi-favour-7a7845240/"
+    },
+    {
+      "logo": "/icons8-instagram-logo.svg",
+      "link": "https://www.instagram.com/fun.mii_?igsh=NXJ4ZG5weGE5d2ty&utm_source=qr"
+    },
+    { "logo": "/icons8-twitter.svg", "link": "https://twitter.com/Favvvy04" }
+  ],
+  "projects": [
+    {
+      "img": "/screencapture-blockmedia-websiite-onrender-home-2026-01-08-08_22_42.png",
+      "name": "Weather-App",
+      "link": "https://weather-app-js-0ydf.onrender.com/",
+      "url": "https://github.com/funmiloola/weather-app-js"
+    },
+    {
+      "img": "/screencapture-crypto-website-9ei9-onrender-2026-01-08-08_36_31.png",
+      "name": "Crypto-app",
+      "link": "https://crypto-website-9ei9.onrender.com/",
+      "url": "https://github.com/funmiloola/crypto-website"
+    },
+    {
+      "img": "/screencapture-get-experts-website-onrender-home-2026-01-08-08_19_51.png",
+      "name": "Get Expert",
+      "link": "https://get-experts-website.onrender.com/",
+      "url": "https://github.com/funmiloola/get-expert"
+    }
+  ],
+  "about": "Hi, I’m a Computer Science graduate with an interest in web development. I started learning web development in 2023 when I had the opportunity to do my SIWES training at Youverify. That experience introduced me to real development work and made me curious about how websites and applications are built.During my training, I learned the basics of web development, including HTML, CSS, and JavaScript. As I continued learning, I worked with tools like Vue.js and Tailwind CSS, which helped me build clean and responsive user interfaces. I enjoyed seeing my work come together and understanding how small pieces of code create a complete product.Later on, I learned React, which helped me better understand how modern web applications are built. Working with React improved my confidence and problem-solving skills, especially when building interactive user interfaces.I enjoy learning new things, building projects, and improving my skills step by step. I am motivated by the idea of creating simple and useful digital experiences, and I am focused on growing as a developer and applying my skills to real-world projects.",
+  "skills": [
+    {
+      "name": "HTML",
+      "img": "/icons8-html-5.svg",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name": "CSS",
+      "img": "/icons8-css.svg",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name": "JS",
+      "img": "/icons8-javascript.svg",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    { "name": "VueJs", "img": "/image.png", "link": "https://vuejs.org/" },
+    {
+      "name": "Tailwindcss",
+      "img": "/tailwindcss.svg",
+      "link": "https://tailwindcss.com/"
+    },
+    {
+      "name": "ReactJs",
+      "img": "/icons8-react-native-48.png",
+      "link": "https://react.dev/"
+    }
+  ],
+  "project": [
+    {
+      "img": "/Get-expert.PNG",
+      "name": "Get Expert",
+      "desc": "Web application featuring secure authentication with Firebase and a role-based admin dashboard. The platform includes multiple screens for managing clients and experts, allowing administrators to monitor activities, manage users, and oversee platform operations from a central interface.",
+      "link": "https://get-experts-website.onrender.com/",
+      "github": "https://github.com/funmiloola/get-expert",
+      "technologies": ["React", "Firebase", "Tailwindcss"]
+    },
+    {
+      "img": "/Blockmedia.png",
+      "name": "BlockMedia",
+      "desc": "A blockmedia web application built with Firebase authentication and wallet connection. It features a Home page for viewing posts and a Profile page where users can manage their account details and connected wallet.",
+      "link": "https://blockmedia-websiite.onrender.com/",
+      "github": "https://github.com/funmiloola/blockmedia-website",
+      "technologies": ["React", "Firebase", "Tailwindcss"]
+    },
+    {
+      "img": "/Weather.png",
+      "name": "Weather",
+      "desc": "Weather web application that uses the OpenWeather API to provide up-to-date weather details for searched locations.",
+      "link": "https://weather-app-js-0ydf.onrender.com",
+      "github": "https://github.com/funmiloola/Weather-app",
+      "technologies": ["React", "OpenWeatherApi", "Tailwindcss"]
+    },
+    {
+      "img": "/Octokit-png.PNG",
+      "name": "Octokit Profile",
+      "desc": "Web application that uses Octokit to search for GitHub user profiles. Users can view basic profile details, visit the user’s GitHub profile, and access their repositories directly from the app.",
+      "link": "https://octoprofile-app.onrender.com",
+      "github": "https://github.com/funmiloola/octoprofile-app",
+      "technologies": ["React", "Octokit", "Github"]
+    },
+    {
+      "img": "/Capture.PNG",
+      "name": "Crypto-App",
+      "desc": "Crypto web application that displays a list of cryptocurrencies with real-time data from the CoinGecko API. Users can search for coins, switch between currencies (USD, EUR, and INR), and click on each coin to view detailed information.",
+      "link": "https://crypto-website-9ei9.onrender.com/",
+      "github": "https://github.com/funmiloola/crypto-website",
+      "technologies": ["React", "CoinGecko", "Tailwindcss"]
+    }
+  ]
+}
