@@ -4,9 +4,11 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Project from "./pages/Projects"
 import Contacts from "./pages/Contact"
+import { useEffect } from "react"
+import { uploadPortfolio } from "./upload"
 
 function App() {
-
+  
 
   return (
     <BrowserRouter>

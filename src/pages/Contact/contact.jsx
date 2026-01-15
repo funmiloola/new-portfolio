@@ -4,19 +4,19 @@ export default function Contact() {
             <h2 className="text-white text-xl md:text-2xl font-semibold text-center pb-2 ">Contact Me</h2>
         <p className="text-white text-xl text-center pb-8">I'm open to collaborations and new oppurtunities.</p>
        
-            <div className="border border-[#101a20] bg-[#101a20] w-full pl-4 pr-20 pt-3 pb-8 rounded-md mx-auto ">
+            <div className="border border-[#101a20] bg-[#101a20] w-full  pt-3 pb-8 rounded-md mx-auto ">
                 <div className="flex flex-col gap-2 pb-4">
                     {data.contacts.map((contact) => (
                         <div className="flex gap-2 items-center justify-center pt-5">
-                            <img src={contact.icn} alt="" className="w-8 h-8"/>
-                            <span className="text-white text-2xl">{ contact.name}</span>
+                            <img src={contact.icn} alt="" className="w-4 h-4 md:w-8 md:h-8"/>
+                            <span className="text-white md:text-2xl">{ contact.name}</span>
                         </div> 
                     ))}
             </div> 
              <div className="flex gap-2 items-center justify-center pb-5">
-            <span className="border-b border-gray-300 w-30 "></span>
-            <span className="text-white text-sm">OR</span>
-            <span className="border-b border-gray-300 w-30"></span>
+            <span className="border-b border-gray-300 w-15 md:w-30 "></span>
+            <span className="text-white text-xs md:text-sm">OR</span>
+            <span className="border-b border-gray-300 w-15 md:w-30"></span>
         </div>
                 <div className="flex items-center justify-center gap-5  pb-3">
                     {data.socials.map((social, index) => (
