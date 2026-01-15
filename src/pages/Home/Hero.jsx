@@ -10,7 +10,7 @@ export default function Hero() {
             I'm <span className="text-orange-400 font-semibold">Favour</span> a
             frontend developer.
           </h2>
-          <p className="text-white font-sans md:text-xl ">
+          <p className="text-white text-center md:text-left font-sans md:text-xl ">
             Based in Lagos, Nigeria, I’m a frontend developer passionate about
             building web applications that look great and work even better. I
             enjoy crafting interfaces that feel intuitive and visually
