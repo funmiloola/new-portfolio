@@ -1,7 +1,7 @@
 import data from "../../data.json";
 export default function Project() {
   return (
-    <div className="font-sans px-8 md:px-24 py-10 md:py-20 ">
+    <div className="font-sans px-8 py-10 md:py-20 w-full max-w-6xl mx-auto">
       <h2 className="text-white font-semibold text-center text-xl md:text-2xl ">
         Projects
       </h2>

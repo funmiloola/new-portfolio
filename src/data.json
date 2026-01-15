@@ -4,11 +4,7 @@
   "contacts": [
     {
       "icn":"/icons8-email-50.png", "name": "funmiloolaadebiyi52@gmail.com"
-    },
-    {
-      "icn":"/icons8-phone-50.png","name":"09058868230"
-    }
-   ],
+    }  ],
   "socials": [
     {
       "logo": "/icons8-linkedin.svg",

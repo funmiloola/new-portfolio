@@ -6,8 +6,8 @@ export default function NavSection() {
   const { pathname } = useLocation();
   
   return (
-    <div className="flex justify-between items-center px-8 md:px-24 pt-4">
-    <div className="flex justify-between  font-sans w-full">
+    <div className="flex justify-between items-center px-8 w-full max-w-6xl mx-auto pt-4">
+    <div className="flex justify-between  font-sans w-full border-b border-b-[#172631] pb-3">
      <Link to="/"> <h2 className="text-white font-semibold text-xl cursor-pointer hover:border-b-3 hover:border-b-orange-400">Favour Adebiyi</h2> </Link>
         <ul onClick={()=>setOptions(false)} className={`  ${option ? "fixed  z-10 top-0 left-0 w-[60%] px-6 pt-4 bg-[#283a46] inset-0 min-h-screen h-full flex flex-col gap-5" : "hidden md:flex  gap-20"}`}>
         <Link to="/">
