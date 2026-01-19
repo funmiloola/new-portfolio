@@ -26,7 +26,7 @@ export default function Project() {
                 <p className="text-white pt-2">{p.desc}</p>
                 <div className="flex gap-2 items-center py-3">
                   {p.technologies.map((tech, index) => (
-                    <span className="text-white text-[10px] md:text-base bg-[#243c4d] group-hover:bg-[#172631] px-2 md:px-4 py-1 rounded-full" key={index}>{tech}</span>
+                    <span className="text-white text-[10px] md:text-xs font-medium bg-[#243c4d] group-hover:bg-[#172631] px-2 md:px-4 py-1 rounded-full" key={index}>{tech}</span>
                   ))}
                  </div>
                 <a href={p.github} target="_blank" className="text-orange-400  hover:border-b hover:border-b-orange-400 " >View on Github</a>        

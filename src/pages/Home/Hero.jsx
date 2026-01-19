@@ -1,11 +1,11 @@
 import data from "../../data.json";
 export default function Hero() {
   return (
-    <section className="px-8 w-full max-w-6xl mx-auto pt-18 md:pt-4 pb-8">
+    <section className="px-8 w-full max-w-6xl mx-auto pt-18 md:pt-0 pb-8">
       <div className="w-full flex flex-col md:flex-row gap-9 md:gap-48 justify-center md:justify-between  items-center  font-display ">
 
         <div className="flex flex-col items-center gap-7 md:items-start  md:w-3/5">
-          <h2 className="text-white text-center md:text-left text-2xl md:text-5xl font-medium">
+          <h2 className="text-white text-center md:text-left text-2xl md:text-5xl font-medium typewriter">
             Hello, <br />
             I'm <span className="text-orange-400 font-semibold">Favour</span> a
             frontend developer.
@@ -25,7 +25,7 @@ export default function Hero() {
           </a>
         </div>
         <div className=" md:w-2/5"> 
-          <img src="/ChatGPT Image Jan 14, 2026, 10_28_28 AM.png" alt="" className="w-50 h-75 md:w-100 md:h-150 object-fill" />
+          <img src="/ChatGPT Image Jan 14, 2026, 10_28_28 AM.png" alt="" className="w-50 h-75 md:w-100 md:h-155 object-fill  " />
           </div>
       </div>
     </section>

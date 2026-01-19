@@ -6,11 +6,13 @@ export default function Contact() {
        
             <div className="border border-[#101a20] bg-[#101a20] w-full  pt-3 pb-8 rounded-md mx-auto ">
                 <div className="flex flex-col gap-2 pb-4">
-                    {data.contacts.map((contact) => (
+                {data.contacts.map((contact) => (
+                    <a href="mailto:funmilolaadebiyi52@gmail.com">
                         <div className="flex gap-2 items-center justify-center pt-5">
                             <img src={contact.icn} alt="" className="w-4 h-4 md:w-8 md:h-8"/>
                             <span className="text-white md:text-2xl">{ contact.name}</span>
                         </div> 
+                        </a>
                     ))}
             </div> 
              <div className="flex gap-2 items-center justify-center pb-5">
