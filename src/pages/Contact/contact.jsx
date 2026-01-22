@@ -4,7 +4,7 @@ export default function Contact() {
             <h2 className="text-white text-xl md:text-2xl font-semibold text-center pb-2 ">Contact Me</h2>
         <p className="text-white text-xl text-center pb-8">I'm open to collaborations and new oppurtunities.</p>
        
-            <div className="border border-[#101a20] bg-[#101a20] w-full  pt-3 pb-8 rounded-md mx-auto ">
+            <div className="border border-[#fc7a0f] dark:border-[#101a20] bg-[#fc7a0f] dark:bg-[#101a20] w-full  pt-3 pb-8 rounded-md mx-auto ">
                 <div className="flex flex-col gap-2 pb-4">
                 {data.contacts.map((contact) => (
                     <a href="mailto:funmilolaadebiyi52@gmail.com">

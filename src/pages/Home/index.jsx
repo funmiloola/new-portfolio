@@ -4,10 +4,8 @@ import Project from "./Project";
 
 export default function Home() {
     return (
-        <>
+        <div className="">
             <Hero />
-            {/* <About />
-            <Project/> */}
-        </>
+        </div>
     )
 }
