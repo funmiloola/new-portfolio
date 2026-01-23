@@ -8,17 +8,17 @@ export default function NavSection() {
   
   return (
     <div className="flex justify-between items-center px-8 w-full max-w-6xl mx-auto pt-4">
-      <nav className="flex justify-between  font-sans w-full border-b border-b-[#172631] dark:border-b-[#172631] pb-3">
+      <nav className="flex justify-between  font-sans w-full border-b border-b-[#172631] pb-3">
        
-     <Link to="/"> <h2 className="text-white font-semibold text-xl cursor-pointer hover:border-b-3  hover:border-b-[#172631] dark:hover:border-b-orange-400 font-logo">Favour Adebiyi</h2> </Link>
+     <Link to="/"> <h2 className="text-[#172631] dark:text-white font-semibold text-xl cursor-pointer hover:border-b-3  hover:border-b-orange-400 font-logo">Favour Adebiyi</h2> </Link>
           
      <div className="flex items-center gap-8">
-        <ul onClick={()=>setOptions(false)} className={`  ${option ? "fixed  z-10 top-16 left-0 w-[60%] px-6 pt-4 bg-[#fc7a0f] dark:bg-[#283a46] inset-0 min-h-screen h-full flex flex-col gap-5 " : "hidden md:flex  gap-20"}`}>
+        <ul onClick={()=>setOptions(false)} className={`  ${option ? "fixed  z-10 top-16 left-0 w-[60%] px-6 pt-4 bg-slate-300 dark:bg-[#353434] inset-0 min-h-screen h-full flex flex-col gap-5 " : "hidden md:flex  gap-20"}`}>
         <Link to="/">
           <li
             onClick={() => setIsActive("/")}
-            className={`text-base md:text-sm cursor-pointer hover:text-[#121e28] dark:hover:text-orange-200 ${
-              isActive && pathname === "/" ? " text-[#121e28] dark:text-orange-400"  : "text-slate-50 dark:text-white"
+            className={`text-base md:text-sm cursor-pointer hover:text-orange-500 ${
+              isActive && pathname === "/" ? "text-orange-400"  : "text-[#172631] dark:text-white"
             }`}
           >
             Home
@@ -27,8 +27,8 @@ export default function NavSection() {
         <Link to="/about">
           <li
             onClick={() => setIsActive("/about")}
-            className={`text-base md:text-sm cursor-pointer hover:text-[#121e28] dark:hover:text-orange-200 ${
-              isActive && pathname === "/about" ? "text-[#121e28] dark:text-orange-400"  : "text-slate-50 dark:text-white" 
+            className={`text-base md:text-sm cursor-pointer hover:text-orange-500 ${
+              isActive && pathname === "/about" ? "text-orange-400"  : "text-[#172631] dark:text-white" 
             }`}
           >
             About
@@ -37,7 +37,7 @@ export default function NavSection() {
         <Link to="/projects">
           <li
                       onClick={() => setIsActive("/projects")}
-                      className={`text-base md:text-sm cursor-pointer hover:text-[#121e28] dark:hover:text-orange-200 ${ isActive && pathname === "/projects" ? "text-[#121e28] dark:text-orange-400"  : "text-slate-50 dark:text-white"}`}
+                      className={`text-base md:text-sm cursor-pointer hover:text-orange-500 ${ isActive && pathname === "/projects" ? "text-orange-400"  : "text-[#172631] dark:text-white"}`}
           >
             Projects
           </li>
@@ -45,7 +45,7 @@ export default function NavSection() {
         <Link to="/contact">
           <li
                       onClick={() => setIsActive("/contact")}
-                      className={`text-base md:text-sm cursor-pointer hover:text-[#121e28] dark:hover:text-orange-200 ${ isActive && pathname === "/contact" ? "text-[#121e28] dark:text-orange-400"  : "text-slate-50 dark:text-white"}`}
+                      className={`text-base md:text-sm cursor-pointer hover:text-orange-500 ${ isActive && pathname === "/contact" ? "text-orange-400"  : "text-[#172631] dark:text-white"}`}
           >
             Contact
           </li>

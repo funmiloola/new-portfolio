@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="bg-orange-400 dark:bg-[#121e28]  h-full min-h-screen   ">
+    <div className="bg-slate-200 dark:bg-[#121212] h-full min-h-screen   ">
         <NavSection />
         <Routes>
           <Route path="/" element={<Home />} />

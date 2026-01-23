@@ -6,21 +6,37 @@
   --font-display:"Inconsolata", sans-serif;
   --font-logo:"Macondo";
 }
-.typewriter {
-  overflow: hidden; 
+.typewriter,
+.typewriter-1 {
+  overflow: hidden;
   white-space: nowrap;
-  margin: 0 auto; 
-  border-right: 1px solid orange;
-  animation: 
-    typing 2s steps(70, end),
-    cursor .4s step-end infinite alternate;
-    animation-delay: 2s;
+  border-right: 2px solid orange;
+  display: inline-block;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+
+.typewriter {
+  animation:
+    typing-hello 2s steps(15, end) 0s forwards, 
+    cursor .6s step-end infinite alternate 2s; 
 }
+
+
+.typewriter-1 {
+  animation:
+    typing 5s steps(40, end), 
+    cursor .6s step-end infinite alternate 5.5s;
+}
+
+@keyframes typing-hello {
+  from {width:0;}
+  to {width:25%;}
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
 @keyframes cursor {
   50% { border-color: orange; }
 }
