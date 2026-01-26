@@ -22,7 +22,7 @@ export default function Hero() {
             frontend developer.
           </h3>
          )}
-          <p className="text-[#172631] dark:text-white text-center lg:text-left  font-sans md:text-lg  px-4  lg:px-0">
+          <p className="text-[#172631] dark:text-white text-center lg:text-left  font-sans md:text-lg  px-4 lg:px-0">
             Based in Lagos, Nigeria, I’m a frontend developer passionate about
             building web applications that look great and work even better. I
             enjoy crafting interfaces that feel intuitive and visually

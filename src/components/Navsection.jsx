@@ -7,12 +7,12 @@ export default function NavSection() {
   const { pathname } = useLocation();
   
   return (
-    <div className="flex justify-between items-center px-8 w-full max-w-6xl mx-auto pt-4">
-      <nav className="flex justify-between  font-sans w-full border-b border-b-[#172631] pb-3">
+    <div className="flex justify-between gap-1 items-center px-8 w-full max-w-6xl mx-auto pt-4">
+      <nav className="flex justify-between items-center font-sans w-full md:border-b border-b-[#172631] md:pb-3">
        
      <Link to="/"> <h2 className="text-[#172631] dark:text-white font-semibold text-xl cursor-pointer hover:border-b-3  hover:border-b-orange-400 font-logo">Favour Adebiyi</h2> </Link>
           
-     <div className="flex items-center gap-8">
+     <div className="flex items-center gap-2 md:gap-8">
         <ul onClick={()=>setOptions(false)} className={`  ${option ? "fixed  z-10 top-16 left-0 w-[60%] px-6 pt-4 bg-slate-300 dark:bg-[#353434] inset-0 min-h-screen h-full flex flex-col gap-5 " : "hidden md:flex  gap-20"}`}>
         <Link to="/">
           <li
@@ -54,7 +54,7 @@ export default function NavSection() {
         <Button/>
         </div>
       </nav>
-      <div className=" block md:hidden">
+      <div className=" block md:pb-3 md:hidden">
         {option ? (
              <img src = "/close-icon.svg"  alt = "" className = "" onClick = { ()=> setOptions(false) }/>
           ): (
