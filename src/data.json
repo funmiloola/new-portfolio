@@ -1,10 +1,12 @@
 {
   "image": "/Gemini_Generated_Image_tah6sdtah6sdtah6.png",
-  "resume": "/Favour Adebiyi Resume .pdf",
+  "resume": "/Favour Funmilola Adebiyi - Frontend DeveloperResume.pdf",
   "contacts": [
     {
-      "icn":"/icons8-email-50.png", "name": "funmiloolaadebiyi52@gmail.com"
-    }  ],
+      "icn": "/icons8-email-50.png",
+      "name": "funmiloolaadebiyi52@gmail.com"
+    }
+  ],
   "socials": [
     {
       "logo": "/icons8-linkedin.svg",
@@ -36,7 +38,7 @@
       "url": "https://github.com/funmiloola/get-expert"
     }
   ],
-  "about": "Hi, I’m a Computer Science graduate with an interest in web development. I started learning web development in 2023 when I had the opportunity to do my SIWES training at Youverify. That experience introduced me to real development work and made me curious about how websites and applications are built.During my training, I learned the basics of web development, including HTML, CSS, and JavaScript. As I continued learning, I worked with tools like Vue.js and Tailwind CSS, which helped me build clean and responsive user interfaces. I enjoyed seeing my work come together and understanding how small pieces of code create a complete product.Later on, I learned React, which helped me better understand how modern web applications are built. Working with React improved my confidence and problem-solving skills, especially when building interactive user interfaces.I enjoy learning new things, building projects, and improving my skills step by step. I am motivated by the idea of creating simple and useful digital experiences, and I am focused on growing as a developer and applying my skills to real-world projects.",
+  "about": "Hi, I'm a Computer Science graduate with an interest in web development. I started learning web development in 2023 during my SIWES internship at Youverify, where I was introduced to real-world development and became curious about how websites and web applications are built.During my learning journey, I gained experience with HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue.js, and Tailwind CSS. Working with these technologies has helped me build responsive, user-friendly interfaces while strengthening my problem-solving skills and understanding of modern web development.I enjoy learning new technologies, building projects, and continuously improving my skills. My goal is to create simple, useful, and engaging digital experiences while growing as a developer and contributing to meaningful real-world projects.",
   "skills": [
     {
       "name": "HTML",
@@ -63,6 +65,16 @@
       "name": "ReactJs",
       "img": "/icons8-react-native-48.png",
       "link": "https://react.dev/"
+    },
+    {
+      "name":"Nextjs",
+      "img":"/icons8-nextjs-48 (1).png",
+      "link":"https://nextjs.org/"
+    },
+    {
+      "name":"Typescript",
+      "img":"/icons8-typescript-48.png",
+      "link":"https://www.typescriptlang.org/"
     }
   ],
   "project": [

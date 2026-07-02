@@ -4,12 +4,12 @@ export default function Skills() {
         <div className='max-w-6xl w-full px-8 mx-auto pt-10 md:pt-20 font-sans pb-8'>
             <h2 className="text-[#172631] dark:text-white text-lg md:text-2xl text-center font-semibold pb-4">Skills</h2>
             <p className='text-[#172631] dark:text-white text-center  text-base pb-2 '>These are the technologies and tools I've been working with to build beautiful and functional web experiences.</p>
-            <ul className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-center gap-6 md:gap-10 pt-12 md:pb-2 mx-auto '>
+            <ul className=' grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 items-center justify-center gap-6 md:gap-10 pt-12 md:pb-2 mx-auto '>
                 {data.skills.map((skill, index) => (
-                    <a href={skill.link} target='_blank'>
-                    <li key={index} className='flex flex-col items-center gap-2 px-6 py-2.5 hover:bg-[#172631] hover:rounded-sm'>
+                    <a href={skill.link} target='_blank' key={index}>
+                    <li className='flex flex-col items-center gap-2 px-6 py-2.5 hover:bg-slate-300 dark:hover:bg-[#172631] hover:rounded-sm'>
                         <img src={skill.img} alt="" />
-                      <span className='text-white'>{skill.name}</span>
+                      <span className='dark:text-white text-[#172631]'>{skill.name}</span>
                     </li>
                     </a>
                 ))}

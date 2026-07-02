@@ -9,9 +9,9 @@ export default function Project() {
                     <li key={index}>
                         <img src={project.img} alt="" className='w-34 h-34 md:w-98 md:h-68 rounded-md' />
                     </li>
-                        <li className='text-white'>{project.name}</li>
-                        <li className='text-orange-400 hover:border-b hover:border-b-orange-400'><a href={project.link}>Live Url</a></li>
-                        <li className='text-orange-400 hover:border-b hover:border-b-orange-400'><a href={project.url}>Github Repo</a></li>
+                        <li className='text-white' key={index}>{project.name}</li>
+                        <li className='text-orange-400 hover:border-b hover:border-b-orange-400'  key={index}><a href={project.link}>Live Url</a></li>
+                        <li className='text-orange-400 hover:border-b hover:border-b-orange-400'  key={index}><a href={project.url}>Github Repo</a></li>
                         </ul>
                 ))}
             </div>
